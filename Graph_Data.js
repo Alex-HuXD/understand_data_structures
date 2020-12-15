@@ -6,7 +6,7 @@
  
  
  shows all the possible conected pairs
- e.g  2 is conected 0,1 and 3
+ e.g  node2 is conected 0,1 and 3
       so it can be write as [2,0],[2,1],[2,3]
       we do this for all nodes.
 */
