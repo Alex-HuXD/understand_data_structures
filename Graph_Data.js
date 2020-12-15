@@ -24,7 +24,7 @@ const graphEL = [[0,2],[2,3],[2,1],[1,3]];
  
  use the node's value as index
  use the conected nodes as value
- e.g: index 0 conects to 2
+ e.g: index 0 (which represents node0) conects to 2
       index 1 conects to 2 and 3
       index 2 conects to 1,3 and 0
       finally index 3 conexts to 1 and 2
@@ -69,7 +69,7 @@ const graphAM = [
 //using object;
 const graphAMO = {
   'node0':[0,0,1,0],
-// node0 has no conection with node0 self, node1 and        node3, has conection with node2;   
+// node0 has no conection with node0 self, node1 and node3, has conection with node2;   
   'node1':[0,0,1,1],
   'node2':[1,1,0,1],
   'node3':[0,1,1,0]
