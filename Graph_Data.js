@@ -9,6 +9,7 @@
  e.g  node2 is conected 0,1 and 3
       so it can be write as [2,0],[2,1],[2,3]
       we do this for all nodes.
+      Do not repeat the pair, if we alreay have [2,3] to show the relationship between 2 and 3, no need for [3,2];
 */
 const graphEL = [[0,2],[2,3],[2,1],[1,3]];
 
